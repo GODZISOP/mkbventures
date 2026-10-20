@@ -1085,8 +1085,8 @@ export default function App() {
                     <Phone size={14} /> {siteConfig.phonePrimary}
                   </a>
                   <span className="sep">•</span>
-                  <a href="mailto:info@hassanfaridllc.com" className="help-link">
-                    <Mail size={14} /> info@hassanfaridllc.com
+                  <a href={`mailto:${siteConfig.email}`} className="help-link">
+                    <Mail size={14} /> {siteConfig.email}
                   </a>
                 </div>
 
@@ -1470,8 +1470,8 @@ export default function App() {
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                 <Mail size={20} color="#38bdf8" />
-                <a href="mailto:info@hassanfaridllc.com" style={{ color: '#fff', textDecoration: 'none', fontWeight: '600' }}>
-                  info@hassanfaridllc.com
+                <a href={`mailto:${siteConfig.email}`} style={{ color: '#fff', textDecoration: 'none', fontWeight: '600' }}>
+                  {siteConfig.email}
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
