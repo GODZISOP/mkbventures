@@ -562,7 +562,7 @@ export default function App() {
                     <h3 className="clean-product-title" onClick={() => viewProductDetail(prod)}>
                       {prod.name}
                     </h3>
-                    <div className="clean-product-price">
+                    <div className="clean-product-price notranslate" translate="no">
                       {prod.price}
                     </div>
                     <button 
@@ -968,7 +968,7 @@ export default function App() {
                 <div className="detail-price-panel">
                   <div className="detail-price-row">
                     <div className="detail-unit-price">
-                      <span className="price-currency">{activeProduct.price}</span>
+                      <span className="price-currency notranslate" translate="no">{activeProduct.price}</span>
                       <span className="price-per">/ unit</span>
                     </div>
                     <div className="detail-price-note">
@@ -1983,7 +1983,7 @@ export default function App() {
                   </div>
                   <div className="form-group">
                     <label className="form-label">Phone / WhatsApp *</label>
-                    <input type="tel" required placeholder="{siteConfig.phoneDirect} or US line" className="form-input" />
+                    <input type="tel" required placeholder={`${siteConfig.phoneDirect} or US line`} className="form-input" />
                   </div>
                   <div className="form-group">
                     <label className="form-label">Categories of Interest</label>
