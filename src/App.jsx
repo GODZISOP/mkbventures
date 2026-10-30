@@ -1213,7 +1213,7 @@ export default function App() {
                         </button>
                       </h3>
                       <div className="product-price-box">
-                        <span className="product-price-val">{prod.price}</span>
+                        <span className="product-price-val notranslate" translate="no">{prod.price}</span>
                         <span className="product-price-sub">Wholesale Tiered</span>
                       </div>
                       <p className="product-excerpt">{prod.description}</p>
