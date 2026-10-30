@@ -990,7 +990,7 @@ export default function App() {
                       {activeProduct.tiers.map((tier, idx) => (
                         <div key={idx} className="tier-card">
                           <div className="tier-qty">{tier.range}</div>
-                          <div className="tier-price">{tier.price} <small>/ unit</small></div>
+                          <div className="tier-price notranslate" translate="no">{tier.price} <small>/ unit</small></div>
                           <div className="tier-discount">{tier.discount}</div>
                         </div>
                       ))}
