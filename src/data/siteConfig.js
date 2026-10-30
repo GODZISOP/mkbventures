@@ -19,8 +19,8 @@ export const siteConfig = {
   eyebrowStandard: "THE MKB VENTURES STANDARD",
 
   // 📞 Phone, WhatsApp & Email
-  phonePrimary: "(+966) 50 741 5829",       // Display phone on top nav
-  phonePrimaryTel: "+966507415829",          // Dial link (tel:...)
+  phonePrimary: "(+966) 59 582 2656",       // Display phone on top nav
+  phonePrimaryTel: "+966595822656",          // Dial link (tel:...)
   phoneDirect: "(+966) 59 582 2656",        // Direct trade desk line
   phoneDirectTel: "+966595822656",          // Direct dial link
   whatsappNumber: "966595822656",            // Numbers only (country code + number)
