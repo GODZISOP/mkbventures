@@ -1512,7 +1512,7 @@ export default function App() {
                   </div>
                   <div className="form-group">
                     <label className="form-label">Direct Phone / WhatsApp *</label>
-                    <input type="tel" required placeholder="{siteConfig.phonePrimary} or US phone" className="form-input" />
+                    <input type="tel" required placeholder={`${siteConfig.phonePrimary} or US phone`} className="form-input" />
                   </div>
                 </div>
                 <div className="form-group">
